@@ -1,0 +1,10 @@
+---
+# tasks file for AsianChris.pip
+- name: Install Python/PIP Packages
+  apt: pkg={{item}} state=present
+  sudo: yes
+  with_items:
+    - python
+    - python-dev
+    - python-pip
+    - python-virtualenv

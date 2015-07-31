@@ -1,0 +1,19 @@
+---
+allow_duplicates: no
+
+dependencies:
+  - { role: AsianChris.system }
+
+galaxy_info:
+  author: Chris Baptista
+  description: PIP installation
+  company:
+  license: license (BSD)
+  min_ansible_version: 1.6
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+  categories:
+    - development
+    - system
